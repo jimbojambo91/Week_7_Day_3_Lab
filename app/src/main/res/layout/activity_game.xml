@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.codeclan.com.rockpaperscissors.GameActivity">
+
+    <Button
+        android:id="@+id/rock_button"
+        android:onClick="onRockButtonClicked"
+        android:text="@string/rock_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/paper_button"
+        android:layout_alignStart="@+id/paper_button"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/paper_button"
+        android:onClick="onPaperButtonClicked"
+        android:text="@string/paper_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/rock_button"
+        android:layout_alignRight="@+id/scissors_button"
+        android:layout_alignEnd="@+id/scissors_button" />
+
+    <Button
+        android:id="@+id/scissors_button"
+        android:onClick="onScissorsButtonClicked"
+        android:text="@string/scissors_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/paper_button"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

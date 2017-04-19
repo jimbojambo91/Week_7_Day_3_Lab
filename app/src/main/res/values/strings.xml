@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="rock_button">Rock</string>
+    <string name="paper_button">Paper</string>
+    <string name="scissors_button">Scissors</string>
+    <string name="start_game_button">Start Game</string>
+    <string name="show_welcome">Welcome to the Rock/Paper/Scissors App!!</string>
+    <string name="rules">Paper beats Rock\nRock beats Scissors\nScissors beats Paper
+    </string>
+</resources>
